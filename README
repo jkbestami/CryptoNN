@@ -1,0 +1,57 @@
+Before running make sure you install the required modules:
+
+From a terminal on Linux run:
+
+sudo pip install numpy
+sudo pip install tensorflow
+sudo pip install matplotlib
+sudo pip install seaborn
+
+###########################################################
+
+Once the modules are installed
+run from a terminal using:
+
+python3 cryptoNN.py 
+
+###########################################################
+
+You will then be prompted to enter the parameters.
+To select the default values, leave blank and just press enter.
+
+If you want all default parameters, press enter 5 times
+
+###########################################################
+
+If you want logging, you have to provide a directory to write onto
+when prompted with :
+
+logging file? (default: no logging)
+
+if it doesn't exist it will be created
+it's relative path so if you enter logging1, it will create a folder called 'logging1' wherever cryptoNN.py is
+
+If you leave it blank and press enter, there will be no logging
+
+CAUTION: for some reason, logging takes A LOT of RAM memory so make sure you allocate enough
+
+#############################################################
+
+To view logging information make sure to install Tensorboard
+
+From a terminal in Linux run: 
+
+sudo pip install tensorflow
+
+
+Then, (even while still training), open a new terminal and run:
+
+tensorboard --logdir /path/to/logdir
+
+It should launch a process at port:6006    (this can be changed, this is the default)
+
+then open your webbrowser and type in the address bar:
+localhost:6006
+
+TensorBoard will show up with all its glory!
+############################################################
