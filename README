@@ -1,3 +1,13 @@
+An implementation of the neural network setup described in Abadi and Andersen's paper.
+The aim is to generate a cryptographic protocol by considering Alice, Bob and Eve as 3 neural networks 
+and training Alice and Bob against Eve adversarially.
+
+
+Paper: Abadi, Martín, and David G. Andersen. "Learning to protect communications with adversarial neural cryptography." arXiv preprint arXiv:1610.06918 (2016).
+Link: https://arxiv.org/abs/1610.06918
+
+
+
 Before running make sure you install the required modules:
 
 From a terminal on Linux run:
