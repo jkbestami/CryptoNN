@@ -1,4 +1,4 @@
-An implementation of the neural network setup described in Abadi and Andersen's paper.
+An implementation of the neural network setup described in Abadi and Andersen's paper using Tensorflow and Tensorboard support.
 The aim is to generate a cryptographic protocol by considering Alice, Bob and Eve as 3 neural networks 
 and training Alice and Bob against Eve adversarially.
 
